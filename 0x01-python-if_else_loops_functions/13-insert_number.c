@@ -4,13 +4,15 @@
 
 /**
 
-  * insert_node - inserts number to  sorted singly linked list
+  * insert_node - inserts a number into a sorted singly linked list.
 
-  * @head: pointer to thee list.
+  * @head: pointer to the pointer of the list.
 
-  * @number: num to be inserted.
+  * @number: number to be inserted.
 
-  * Return: address new node or NULL if it fail
+  *
+
+  * Return: address f the new node or NULL if it failed.
 
   */
 

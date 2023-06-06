@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-for i in range(26):
-if i % 2 == 0:
-print('{:c}'.format(122 - i), end='')
- else:
-print('{:c}'.format(90 - i), end='')
+i = 0
+
+for c in range(ord('z'), ord('a') - 1, -1):
+
+    print("{}".format(chr(c - i)), end="")
+
+    i = 32 if i == 0 else 0
