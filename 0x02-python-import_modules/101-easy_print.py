@@ -1,5 +1,3 @@
 #!/usr/bin/python3
-
-input('#pythoniscool')
-
+__import__("os").write(1, "#pythoniscool\n".encode("UTF-8"))
 # Adonijah Kiplimo
