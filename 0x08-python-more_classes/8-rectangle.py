@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+Define class Rectangle
+"""
+
 
 class Rectangle:
     """Representation of a rectangle"""
@@ -8,7 +12,7 @@ class Rectangle:
 
     @staticmethod
     def bigger_or_equal(rect_1, rect_2):
-        """returns the biggest rectangle based on the area"""
+        """return biggest rectangle based on the area"""
         if type(rect_1) is not Rectangle:
             raise TypeError("rect_1 must be an instance of Rectangle")
         if type(rect_2) is not Rectangle:
@@ -77,4 +81,5 @@ class Rectangle:
     def __repr__(self):
         """returns a string representation of the rectangle for reproduction"""
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
-    """adonijah Kiplimo"""
+
+"""adonijah Kiplimo"""
