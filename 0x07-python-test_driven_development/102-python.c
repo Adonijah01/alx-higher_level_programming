@@ -1,8 +1,8 @@
 #include "Python.h"
 
 /**
- * print_python_string - Print info about Python string.
- * @p: PyObject string object.
+ * Print_Python_String - Print info about Python strings.
+ * @p: A PyObject string objct
  */
 void print_python_string(PyObject *p)
 {
@@ -26,5 +26,3 @@ void print_python_string(PyObject *p)
 	printf("  length: %ld\n", length);
 	printf("  value: %ls\n", PyUnicode_AsWideCharString(p, &length));
 }
-
-"""adonijah Kiplimo"""
